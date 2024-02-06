@@ -1,6 +1,6 @@
 $TTL 2h
 
-@       IN      SOA     ns.main.com. hostmaster.main.com. (
+@       IN      SOA     main.com.  hostmaster.main.com. (
                         2024012600  ; Serial
                         12h         ; Refresh
                         15m         ; Retry
@@ -8,6 +8,6 @@ $TTL 2h
                         2d          ; Minimum ttl
                         )
 
-        IN      NS      ns.main.com.
-        
-ns      IN      A       127.0.0.1
+        IN      NS      main.com.
+@       IN      A       127.0.0.1
+www     IN      A       127.0.0.1
